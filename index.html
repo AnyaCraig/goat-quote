@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Goat Quote</title>
+	<link href='https://fonts.googleapis.com/css?family=Playball|Sigmar+One|Josefin+Slab' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<h1>Goat Quote</h1>
+
+		<h2 class="tagline">Nobody delivers famous quotations quite like a goat.</h2>
+		<div class="content clearfix">
+			<div class="form-container">
+				<form class="quote-subject clearfix">
+				<h3>What do you want to hear about?</h3>
+					<div class="radio-container clearfix">
+						<div class="radio-left-col">
+							<label for="love"><input type="radio" name="subject" value="love" id="love">  love</label><span class="block"></span>
+							<label for="death"><input type="radio" name="subject" value="death" id="death">  death</label><span class="block"></span>
+							<label for="beauty"><input type="radio" name="subject" value="beauty" id="beauty">  beauty</label><span class="block"></span>
+							<label for="freedom"><input type="radio" name="subject" value="freedom" id="freedom">  freedom</label><span class="block"></span>
+						</div><!-- /.radio-left-col -->
+						<div class="radio-right-col">
+							<label for="war"><input type="radio" name="subject" value="war" id="war">  war</label><span class="block"></span>
+							<label for="peace"><input type="radio" name="subject" value="peace" id="peace">  peace</label><span class="block"></span>
+							<label for="faith"><input type="radio" name="subject" value="faith" id="faith">  faith</label><span class="block"></span>
+							<label for="difficulty"><input type="radio" name="subject" value="difficulty" id="difficulty">  difficulty</label><span class="block"></span>
+						</div><!-- /.radio-right-col -->
+					</div><!-- /.radio-container -->
+					<span class="block"></span>	
+					<div class="no-selection">Please make a selection!</div>
+					<input type="submit" value="Get your Goat Quote!">
+				</form><!-- /.quote-subject -->
+			</div><!-- /.form-container -->
+
+			<div class="reveal">
+				<div class="reveal-contents">
+					<img class="goat-image" src="" alt="This goat tells it like it is." title="">
+					<div class="reveal-quote">
+						<p></p>
+					</div>
+					<h5 class="reveal-speaker"></h5>
+					<button class="new-quote"></button>
+					<button class="start-again">Start <span class="block"></span>again</button>
+
+					<div class="twitter-thing">
+
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.anyacraig.com/goatquote" data-text="Need a little lofty inspiration? Get it from a goat!" data-via="AnyaCraig" data-size="large" data-hashtags="GoatQuote">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+					</div><!-- /.twitter-thing -->
+				</div><!-- /.reveal-contents -->
+			</div><!-- /.reveal -->
+		</div><!-- /.content -->
+
+		<footer>&copy 2015 <a href="http://www.anyacraig.com">Anya Craig</a>
+		<span class="footer-sidenote">  // Background image from <a href="http://www.foxprairiefarm.com/">Fox Prairie Farm</a></span></footer>
+	</div><!-- /.wrapper -->
+
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/goatquote.js"></script>
+		
+</body>
+</html>
